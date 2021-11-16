@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *【两数之和】
  * @author: kim
  * @since: 21-9-28
  **/
@@ -72,8 +73,8 @@ public class question1 {
 
     public static void main(String[] args) {
         question1 question1 = new question1();
-        int[] nums = new int[]{3,2,7};
-        int target = 5;
+        int[] nums = new int[]{3,2,7,8};
+        int target = 10;
         System.out.println(Arrays.toString(question1.twoSum2(nums,target)));
     }
 }
