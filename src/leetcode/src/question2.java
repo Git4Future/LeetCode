@@ -1,7 +1,7 @@
 /**
  * @className: question2
  * @description: 【整数反转】
- * @author: Kinglone
+ * @author: kim
  * @date: 2021/11/16
  **/
 public class question2 {

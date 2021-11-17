@@ -62,6 +62,7 @@ public class question1 {
     public int[] twoSum2(int[] nums, int target) {
         int len = nums.length;
         Map<Integer, Integer> map = new HashMap<>();
+        //不需要先把所有数放到map中，可以以此判断，并放入map
         for (int i = 0; i < len; i++) {
             if (map.containsKey(target - nums[i])) {
                 return new int[]{i, map.get(target - nums[i])};
