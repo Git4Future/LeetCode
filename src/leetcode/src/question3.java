@@ -1,9 +1,6 @@
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * @className: question3
- * @description: 回文数
+ * @description: 【#9 回文数】
  * @author: kim
  * @date: 2021/11/17
  **/
@@ -31,7 +28,7 @@ public class question3 {
      * 输出：false
      */
     public boolean isPalindrome(int x) {
-        if(x < 0 || (x != 0 && x % 10 ==0)) {
+        if(x < 0 || (x != 0 && x % 10 == 0)) {
             return false;
         }
         int res = 0;

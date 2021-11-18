@@ -1,6 +1,6 @@
 /**
  * @className: question2
- * @description: 【整数反转】
+ * @description: 【#7 整数反转】
  * @author: kim
  * @date: 2021/11/16
  **/
